@@ -342,9 +342,33 @@ fieldset legend {
 
 }
 
+#personal-lastname, #personal-name {
+    /* width: 100%; */
+    /* margin: 0;
+    padding: 0; */
+
+}
+
+#first-data,
+#second-data {
+    width: 300px;
+    margin: 0;
+    padding: 0;
+}
+
+#first-begin,
+#first-end,
+#second-begin,
+#second-end {
+    margin: 0;
+    padding: 0;
+
+}
+
 .coluna2 {
     display: flex;
     gap: 22px;
+    align-items: center;
 
 
 
@@ -411,7 +435,7 @@ footer {
 }
 
 footer .button {
-  
+
 
     font-family: 'Staatliches';
     font-weight: 400;
